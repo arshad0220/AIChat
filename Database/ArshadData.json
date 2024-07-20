@@ -1,103 +1,62 @@
 [
-    {
-        "id": 1,
-        "info": "Summary",
-        "description": "My name is Arshad Ahamed Experienced technical support engineer proficient in AI chatbot utilization for issue resolution and adept at maintaining comprehensive data on resolved issues."
-    },
-    {
-        "id": 2,
-        "info": "Educational Details",
-        "description": [
-            {
-                "degree": "S.S.L.C",
-                "institution": "St. Anns High School, Hutti",
-                "year": "2013-2014",
-                "percentage": "67.52%"
-            },
-            {
-                "degree": "P.U.C (Science)",
-                "institution": "Sir. M. Visveswaraya P.U Science College, Lingsugur",
-                "year": "2015-2016",
-                "percentage": "69.00%"
-            },
-            {
-                "degree": "B.E (Computer Science)",
-                "institution": "SJB Institute of Technology Bangalore",
-                "year": "2021-2022",
-                "cgpa": "5.50/10.00"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "info": "Work Experience",
-        "description": [
-            {
-                "company": "Fresh One Holdings LLC",
-                "designation": "Technical support engineer (Freelancer)",
-                "period": "November 2022 – Jan 2024 (1 Year – 2 Months)"
-            },
-            {
-                "company": "Soudagar Traders",
-                "designation": "Technical support engineer",
-                "period": "August 2022 – Jan 2024 (1 Year – 7 Months)"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "info": "Projects",
-        "description": [
-            {
-                "company": "Fresh One Holdings LLC",
-                "projects": [
-                    "Implemented AI-driven technical support solution using Zendesk with Answer Bot integration.",
-                    "Enhanced chatbot performance and accuracy through Python scripting.",
-                    "Maintained MySQL database of resolved issues for future analysis and improvement."
-                ]
-            },
-            {
-                "company": "Soudagar Traders",
-                "projects": [
-                    "Led integration of Microsoft Dynamics CRM with AI chatbot functionalities.",
-                    "Utilized Power BI and Power Automate for support data analysis.",
-                    "Implemented Google Docs for collaborative documentation.",
-                    "Utilized OpenAI API for advanced language processing in issue resolution."
-                ]
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "info": "Tools",
-        "description": "Zendesk (with Answer Bot), Microsoft Dynamics CRM, Microsoft 365, Power BI, Power Automate, Python Script, MySQL, Google Docs, Command line windows and Open AI API."
-    },
-    {
-        "id": 6,
-        "info": "Technical Skills",
-        "description": [
-            "Troubleshoot technical issues reported by users through AI chatbots, providing timely and effective resolutions.",
-            "Utilize AI tools to continuously improve chatbot performance and accuracy in understanding user queries.",
-            "Maintain and update databases with detailed records of resolved issues, contributing to data-driven insights for future improvements.",
-            "Collaborate with cross-functional teams to integrate AI chatbot functionalities into existing support systems.",
-            "Provide training and support to users and colleagues on utilizing AI chatbots effectively for issue resolution and data management."
-        ]
-    },
-    {
-        "id": 7,
-        "info": "Soft Skills",
-        "description": [
-            "Strong problem-solving abilities to efficiently diagnose and address issues, often under time constraints.",
-            "Patience and empathy in dealing with frustrated or confused users, ensuring a positive support experience.",
-            "Adaptability to quickly learn and adapt to new technologies and tools in a fast-paced technical environment."
-        ]
-    },
-    {
-        "id": 8,
-        "info": "Certifications",
-        "description": [
-            "Building Systems with the ChatGPT API",
-            "ChatGPT prompt engineering for developers"
-        ]
-    }
+  {
+    "id": 1,
+    "info": "Arshad Ahamed",
+    "description": "Bachelor of Engineering in Computer Science from the SJB Institute of Technology, Bangalore, Karnataka. Motivated React/Next.js developer with over 2 years of experience in building performant and secure web applications. Skilled in API integration, data management, and creating collaborative user experiences."
+  },
+  {
+    "id": 2,
+    "info": "Education",
+    "description": "Bachelor of Engineering in Computer Science from the SJB Institute of Technology, Bangalore, Karnataka, completed in 2022."
+  },
+  {
+    "id": 3,
+    "info": "Professional Experience",
+    "description": "React/Next.js developer with over 2 years of experience. Developed and maintained web applications, integrated APIs, and created collaborative user experiences."
+  },
+  {
+    "id": 4,
+    "info": "Role at FreshOne Holdings LLC",
+    "description": "React.js Freelance Developer from November 2021 to December 2023. Developed and maintained a temperature-controlled logistics application, achieved a 15% reduction in delivery reporting turnaround times, integrated one-click Stripe payment, utilized the Jest unit testing framework, designed and implemented RESTful APIs, handled over 50,000 API requests per month, and integrated the Samsara API for real-time temperature and location tracking."
+  },
+  {
+    "id": 5,
+    "info": "Role at Ycities",
+    "description": "Next.js Freelance Developer from February 2023 to February 2024. Developed a custom, invite-only community web app using Next.js, focused on fostering youth entrepreneur networking. Leveraged TypeScript for type safety and maintainability, utilized Prisma ORM for data persistence and retrieval, and integrated Timely for goal progress tracking."
+  },
+  {
+    "id": 6,
+    "info": "Skills",
+    "description": "Proficient in JavaScript, React.js, Next.js, Tailwind CSS, Clerk for authentication, Hasura Data Delivery Network, GraphQL APIs, Vercel-Meticulous AI for testing, Sanity.io for CMS, Astro.build for building content-driven websites, GitHub, GitLab, Vercel for CI/CD, Drizzle ORM, UIVerse.io for open-source UI elements, Lemon Squeezy for SaaS Subscription Payment Integration, Astra DB for AI databases and vector embedding, Twilio for cloud communications, Knock for notification APIs, Doppler for secrets management, AWS S3, SST-ION for cloud infrastructure, Vercel, and Fly.io for deployment."
+  },
+  {
+    "id": 7,
+    "info": "Projects",
+    "description": "Developed several notable projects: Next.js Patient Management System, React Admin Dashboard App, React Portfolio, Next.js Self AI Chatbot called Roadside Coder."
+  },
+  {
+    "id": 8,
+    "info": "Email",
+    "description": "ars007.smv@gmail.com"
+  },
+  {
+    "id": 9,
+    "info": "Mobile Number",
+    "description": "+91-9731701337"
+  },
+  {
+    "id": 10,
+    "info": "LinkedIn",
+    "description": "Link to Arshad Ahamed's LinkedIn profile: https://www.linkedin.com/in/frontendevelopers/"
+  },
+  {
+    "id": 11,
+    "info": "GitHub",
+    "description": "Link to Arshad Ahamed's GitHub profile: https://github.com/arshad0220"
+  },
+  {
+    "id": 12,
+    "info": "Freelance Profile",
+    "description": "Link to Arshad Ahamed's freelance profile: https://pangea.app/profile/arshad-ahamed"
+  }
 ]

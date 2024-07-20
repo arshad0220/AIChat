@@ -1,8 +1,8 @@
-import { DataAPIClient } from "@datastax/astra-db-ts";
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
-import "dotenv/config";
-import OpenAI from "openai";
-import ArshadData from "./ArshadData.json" with { type: "json" };
+const { DataAPIClient } = require("@datastax/astra-db-ts");
+const { RecursiveCharacterTextSplitter } = require("langchain/text_splitter");
+require("dotenv").config();
+const OpenAI = require("openai");
+const ArshadData = require("./ArshadData.json");
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_KEY
@@ -24,7 +24,7 @@ const splitter = new RecursiveCharacterTextSplitter({
 
 const createCollection = async () => {
     try {
-        await db.createCollection("portfolio", {
+        await db.createCollection("portfolios", {
             vector: {
                 dimension: 1536,
             }
@@ -35,7 +35,7 @@ const createCollection = async () => {
 };
 
 const loadData = async () => {
-    const collection = await db.collection("portfolio");
+    const collection = await db.collection("portfolios");
 
     for await (const { id, info, description } of ArshadData) {
         let descriptions = [];

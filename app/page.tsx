@@ -26,7 +26,8 @@ export default function Home() {
 
         <section className="w-full flex-1 flex flex-col overflow-y-scroll bg-gray-800 bg-opacity-10 rounded-lg p-5 shadow-lg">
           {noMessages ? (
-            <p className="text-center text-xl text-gray-300">Ask me Anything</p>
+            <p className="text-center text-xl text-gray-300">Ask me Anything about: 
+Arshad Ahamed, Education, Professional Experience, Skills, Projects, Email, Mobile Number, LinkedIn, GitHub, Freelance Profile</p>
           ) : (
             <>
               {messages.map((message, index) => (

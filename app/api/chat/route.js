@@ -23,7 +23,7 @@ export async function POST(req) {
       model: "text-embedding-3-small",
     });
 
-    const collection = await db.collection("portfolio");
+    const collection = await db.collection("portfolios");
 
     const cursor = collection.find(null, {
       sort: {
